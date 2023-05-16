@@ -7,7 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-   Welcome <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
+    <?php include 'header.php';?>
+    <?php require 'body.php';?>
+    <?php include 'footer.php';?>
 </body>
 </html>

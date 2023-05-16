@@ -13,6 +13,7 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if(empty($_POST["name"])){
                 $nameErr="name is required";
+          
             }else{
                 $name= test_input($_POST["name"]);
             }
