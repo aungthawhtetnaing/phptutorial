@@ -34,12 +34,14 @@ if(!isset($_SESSION['buy'])){
                 echo "<tr>";
                 echo "<td>".$item[$x]."</td>";
                 echo "<td>".$price[$x]."</td>";
+                
                 echo "</tr>";
                
             }
+            
             echo "<h4>".array_sum($sum)."</h4>";
-           
             ?>
+            
         </tbody>
     </table>
     <a href="catlog.php">shoppingcat</a>
